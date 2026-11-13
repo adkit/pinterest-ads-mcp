@@ -1,10 +1,10 @@
 # Pinterest Ads MCP Server
 
-[![MCP Registry](https://img.shields.io/badge/MCP_Registry-io.github.adkit%2Fpinterest-ads-7c3aed)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.adkit/pinterest-ads) [![Setup guide](https://img.shields.io/badge/setup_guide-adkit.so-7c3aed)](https://adkit.so/features/ads-mcp/pinterest) [![License: MIT](https://img.shields.io/badge/license-MIT-16a34a)](./LICENSE)
+[![MCP Registry](https://img.shields.io/badge/MCP_Registry-io.github.adkit%2Fpinterest--ads-7c3aed)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.adkit/pinterest-ads) [![Setup guide](https://img.shields.io/badge/setup_guide-adkit.so-7c3aed)](https://adkit.so/features/ads-mcp/pinterest) [![License: MIT](https://img.shields.io/badge/license-MIT-16a34a)](./LICENSE)
 
 Connect Pinterest Ads to Claude, ChatGPT, Cursor, Codex or any AI app that supports MCP. AdKit hosts the server, so you only add an address to your AI app.
 
-- **MCP address:** `https://mcp.adkit.so/api/mcp/pinterest-ads`
+- **MCP address:** `https://mcp.adkit.so/pinterest-ads`
 - **Website:** [Pinterest Ads MCP by AdKit](https://adkit.so/features/ads-mcp/pinterest)
 
 > **Beta:** Your AI writes Pinterest API requests and AdKit sends them. It can do what the API allows, with more steps than on Meta or Google. Turn on Advanced Platform Access in your AdKit project (Agent Permissions) first.
@@ -36,12 +36,12 @@ There are two ways to connect:
 ### Claude (web and desktop)
 
 - **All platforms:** [install AdKit from the Claude directory](https://claude.ai/directory/adkit), in one click.
-- **Pinterest Ads only:** Settings → **Connectors** → **Add custom connector** → paste `https://mcp.adkit.so/api/mcp/pinterest-ads`.
+- **Pinterest Ads only:** Settings → **Connectors** → **Add custom connector** → paste `https://mcp.adkit.so/pinterest-ads`.
 
 ### ChatGPT
 
 - **All platforms:** [add the AdKit app](https://chatgpt.com/apps/adkit/asdk_app_6a1e848decdc8191a4974b315c51661f), in one click.
-- **Pinterest Ads only:** Settings → **Connectors** → **Add custom connector** → paste `https://mcp.adkit.so/api/mcp/pinterest-ads`.
+- **Pinterest Ads only:** Settings → **Connectors** → **Add custom connector** → paste `https://mcp.adkit.so/pinterest-ads`.
 
 ### Claude Code
 
@@ -55,7 +55,7 @@ As a plugin:
 Or as an MCP server only:
 
 ```
-claude mcp add --transport http adkit-pinterest-ads https://mcp.adkit.so/api/mcp/pinterest-ads
+claude mcp add --transport http adkit-pinterest-ads https://mcp.adkit.so/pinterest-ads
 ```
 
 ### Gemini CLI
@@ -72,7 +72,7 @@ Add to `~/.cursor/mcp.json`:
 {
   "mcpServers": {
     "adkit-pinterest-ads": {
-      "url": "https://mcp.adkit.so/api/mcp/pinterest-ads"
+      "url": "https://mcp.adkit.so/pinterest-ads"
     }
   }
 }
@@ -84,7 +84,7 @@ Add to `~/.codex/config.toml`:
 
 ```toml
 [mcp_servers.adkit-pinterest-ads]
-url = "https://mcp.adkit.so/api/mcp/pinterest-ads"
+url = "https://mcp.adkit.so/pinterest-ads"
 ```
 
 In Claude Code, Gemini CLI, Cursor and Codex, use `https://mcp.adkit.so` instead to connect all platforms.
