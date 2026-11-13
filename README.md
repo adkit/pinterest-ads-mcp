@@ -5,7 +5,7 @@
 Connect Pinterest Ads to Claude, ChatGPT, Cursor, Codex or any AI app that supports MCP. AdKit hosts the server, so you only add an address to your AI app.
 
 - **MCP address:** `https://mcp.adkit.so/pinterest-ads`
-- **Website:** [Pinterest Ads MCP by AdKit](https://adkit.so/features/ads-mcp/pinterest)
+- **Website:** [AdKit](https://adkit.so/features/ads-mcp/pinterest)
 
 > **Beta:** Your AI writes Pinterest API requests and AdKit sends them. It can do what the API allows, with more steps than on Meta or Google. Turn on Advanced Platform Access in your AdKit project (Agent Permissions) first.
 
