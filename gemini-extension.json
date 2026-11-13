@@ -1,0 +1,11 @@
+{
+  "name": "adkit-pinterest-ads",
+  "version": "1.0.0",
+  "description": "Pinterest Ads MCP server by AdKit: Pinterest campaigns, ad groups, ads and analytics through its API, in beta. Every change is saved as a draft until you approve it.",
+  "mcpServers": {
+    "adkit-pinterest-ads": {
+      "httpUrl": "https://mcp.adkit.so/api/mcp/pinterest-ads",
+      "description": "Hosted AdKit Pinterest Ads MCP server. Signs in with OAuth in the browser on first use; nothing to install."
+    }
+  }
+}

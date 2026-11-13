@@ -1,0 +1,22 @@
+{
+  "name": "pinterest-ads",
+  "description": "Pinterest Ads MCP server by AdKit: Pinterest campaigns, ad groups, ads and analytics through its API, in beta. Every change is saved as a draft until you approve it.",
+  "author": {
+    "name": "AdKit",
+    "email": "contact@adkit.so"
+  },
+  "homepage": "https://adkit.so/features/ads-mcp/pinterest",
+  "repository": "https://github.com/adkit/pinterest-ads-mcp",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "pinterest ads mcp",
+    "pinterest ads",
+    "mcp",
+    "model context protocol",
+    "ads mcp",
+    "advertising",
+    "ad campaigns"
+  ],
+  "mcpServers": "./.mcp.json"
+}

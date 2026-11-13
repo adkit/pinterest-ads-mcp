@@ -1,0 +1,22 @@
+{
+  "name": "adkit-pinterest-ads",
+  "metadata": {
+    "description": "Pinterest Ads MCP server by AdKit: Pinterest campaigns, ad groups, ads and analytics through its API, in beta. Every change is saved as a draft until you approve it."
+  },
+  "owner": {
+    "name": "AdKit",
+    "email": "contact@adkit.so"
+  },
+  "plugins": [
+    {
+      "name": "pinterest-ads",
+      "source": "./",
+      "description": "Pinterest Ads MCP server by AdKit: Pinterest campaigns, ad groups, ads and analytics through its API, in beta. Every change is saved as a draft until you approve it.",
+      "author": {
+        "name": "AdKit",
+        "email": "contact@adkit.so"
+      },
+      "homepage": "https://adkit.so/features/ads-mcp/pinterest"
+    }
+  ]
+}
